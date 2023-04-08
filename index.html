@@ -5,11 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="navbar.css">
+
 </head>
 <body>
     
+
+
+    <!--------------------------------- navbar    ------------------------------------------------------------>
+
+ <div class="right-menu ">
+        
+        <div class="large-screen-menu "  id="nav">
+            <!-- <div class="nav-logo"> -->
+                <img class="img-fluid nav-logo " src="./images/logo.png" alt="">
+            <!-- </div> -->
+            <a class="nav-items" href="./index.html">Home</a>
+            <a class="nav-items" href="./about.html">About</a>
+            <a class="nav-items" href="#">Our Team</a>
+            <a class="nav-items" href="#">MasterPiece</a>
+            <a class="nav-items" href="#">Vendor/Join us</a>
+            <a class="nav-items" href="#">Contact</a>
+            <a class="nav-items" href="#">Blogs</a>
+                          
+          </div>            
+        </div> <!---large screen menu -->
+
+
+       
+
+
+    </div> <!---right-menu-->
+
+    <div class="mobile-menu">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="#">Our Team</a>
+            <a href="#">MasterPiece</a>
+            <a href="#">Vendor/Join us</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+            
+            <span class="menu-icon" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+            
+          </div>
+          
+       
+
+        </div> 
+        <!---mobile menu -->
+     
+
+
+
+
+
+
+    <!---------------------------- XX navbar ends here XX --------------------->
+    
+
+
 
     <section id="main-bg">
 
@@ -24,6 +88,20 @@
         <p>Linden is all in one premium WordPress theme for single property, real estate agency and developer company website.</p>
     </article>
 
+    <article id="top-left-img">
+        <img src="./images/Title-11-300x135.webp" alt="">
+    </article>
+
+    <article id="top-center-img">
+        <img src="./images/key-2.webp" alt="">
+    </article>
+
+    
+    <article id="bottom-left-img">
+
+        <img src="./images/Title-2-300x98.webp" alt="">
+
+    </article>
 
     <article id="beautiful-home-pages">
 
@@ -43,6 +121,10 @@
         <div id="cards-wrapper">
 
 <!-------------------- starts from here images----------------------->
+
+
+
+
 
             <div class="card-body">
 
@@ -274,9 +356,9 @@
      </footer>
 
 
-   
 
 
+<script src="script.js"></script>
 
 
 </body>

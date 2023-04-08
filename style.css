@@ -15,19 +15,21 @@ p{
 }
 
 
+
 #main-bg-wrapper{
 
     background-color: #f7f4f1;
 
-    height: 92vh;
+    height: 90vh;
     width: 100%;
     position: relative;
+    /* z-index: -1; */
 }
 
 
 #welcome-text{
     position: absolute;
-    top: 40%;
+    top: 38%;
     left:50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -43,6 +45,40 @@ p{
 #welcome-text p{
     text-align: center;
 }
+
+#top-left-img{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+#top-left-img{
+    width: 20vw;
+}
+
+
+#top-center-img{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50, -50%);
+}
+
+#top-center-img img{
+    width: 6vw;
+}
+
+#bottom-left-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#bottom-left-img img{
+    width: 30vw;
+    transform: translateY(-10vh);
+}
+
 
 #beautiful-h{
     text-align: center;
@@ -127,7 +163,7 @@ p{
 
 #full-width-container {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     margin-top: 8rem;
 
 }
@@ -182,7 +218,7 @@ footer{
     background-color: #b99755;
     /* opacity: 0.9; */
     /* position: relative; */
-    border: 4px solid purple;
+    /* border: 4px solid purple; */
     position: relative;
 
 
@@ -232,14 +268,14 @@ footer{
 }
 
 #footer-content h1{
-    font-size: 3rem;
+    font-size: 4rem;
     /* font-weight: 400; */
 }
 
 #footer-p{
     color: #fff;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, 50%);
     font-size: 1.2rem;
@@ -247,3 +283,50 @@ footer{
     word-spacing: 10px;
     margin-top: auto;
 }
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+
+@media (min-width: 1020px) {
+    .mobile-menu{
+      display: none;
+    }
+
+
+}
+
+
+  @media (max-width: 1020px) {
+    .large-screen-menu{
+      display: none;
+    }
+
+    #service-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    
+    #welcome-text{
+        line-height: 1.4;
+    }
+
+    html {
+    font-size: 10px;
+    }
+
+}
+
+
+/* ===== XX media queries  ====== XX */
